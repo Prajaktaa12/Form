@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title> FORM </title>
+</head>
+<body>
+    <form action=" " method="POST">
+        <fieldset>
+            <legend> Form Validation </legend>
+        <fieldset>
+            <legend> Initial Details </legend>
+            <label for="firstname">First name :</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Firstname"><br><br>
+            <label for="lastname">Last name :</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Lastname"><br><br>
+        </fieldset><br>
+        <fieldset>
+            <legend> Address </legend>
+            <label for="email">Email Id :</label>
+            <input type="email" id="email" name="email" placeholder="Email address"><br><br>
+            <label for="address">Address :</label>
+            <input type="address" id="address" name="address" placeholder="Address"><br><br>
+            <label for="country">Country :</label>
+            <select id="country">
+                <option value=" ">Choose your country</option>
+                <option value="India">India</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+            </select><br><br>
+            <label for="states">States :</label>
+            <select id="states">
+                <option value=" ">Choose your state</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Gujrat">Gujrat</option>
+            </select><br><br>
+            <label for="city">City :</label>
+            <select id="city">
+                <option value=" ">Choose your city</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Chennai">Chennai</option>
+            </select>
+        </fieldset><br>
+        <fieldset>
+            <legend> Password & Gender </legend>
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" placeholder="Password"><br><br>
+            <label for"gender"> Gender :</label>
+            <input type="radio" name="gender" value="male" unchecked> Male
+            <input type="radio" name="gender" value="female" unchecked> Female
+        </fieldset><br>
+            <button type="submit" style="margin-left: 5%">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
